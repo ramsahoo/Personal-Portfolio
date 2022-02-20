@@ -357,7 +357,7 @@
     },
     onStartup: function () {
       this.updateItems();
-      this.calculateAll();
+      this.calcularedl();
       this.buildControls();
       this.updateControls();
       this.response();
@@ -389,7 +389,7 @@
         this.options.beforeUpdate.apply(this, [this.$elem]);
       this.watchVisibility();
       this.updateItems();
-      this.calculateAll();
+      this.calcularedl();
       this.updatePosition();
       this.updateControls();
       this.eachMoveUpdate();
@@ -516,7 +516,7 @@
       });
       this.appendItemsSizes();
     },
-    calculateAll: function () {
+    calcularedl: function () {
       this.calculateWidth();
       this.appendWrapperSizes();
       this.loops();
@@ -1164,13 +1164,11 @@
           a.positionsInArray[a.prevItem],
         g = Math.abs(a.positionsInArray[a.currentItem]) + a.itemWidth / 2;
       a.isTransition = !0;
-      a.$owlWrapper
-        .addClass("owl-origin")
-        .css({
-          "-webkit-transform-origin": g + "px",
-          "-moz-perspective-origin": g + "px",
-          "perspective-origin": g + "px",
-        });
+      a.$owlWrapper.addClass("owl-origin").css({
+        "-webkit-transform-origin": g + "px",
+        "-moz-perspective-origin": g + "px",
+        "perspective-origin": g + "px",
+      });
       d.css({ position: "relative", left: f + "px" })
         .addClass(b)
         .on(
