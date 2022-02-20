@@ -5,7 +5,7 @@
  * -------------------------------------------------------------------
  */
 
-(function ($) {
+ (function(){
   "use strict";
 
   /*---------------------------------------------------- */
@@ -184,6 +184,7 @@
   /*---------------------------------------------------- */
   /*  Placeholder Plugin Settings
 	------------------------------------------------------ */
+
   $("input, textarea, select").placeholder();
 
   /*---------------------------------------------------- */
@@ -198,7 +199,7 @@
 
       $.ajax({
         type: "POST",
-        url: "inc/sendEmail.php",
+        url: "Portfolio/public/inc/sendEmail.php",
         data: $(form).serialize(),
         beforeSend: function () {
           sLoader.fadeIn();

@@ -1317,7 +1317,7 @@ header .top-bar {
 .main-navigation > li {
   display: block;
   height: auto;
-  text-align: left;
+  text-align: center;
   padding: 0;
 }
 .main-navigation li a {
