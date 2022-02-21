@@ -191,7 +191,7 @@
   /*	contact form
 	------------------------------------------------------ */
 
-  /* send email */
+  /* send emails */
 
   $(document).ready(function() {
     $('#text').click(function() {
