@@ -194,10 +194,10 @@
   /* send emails */
 
   $(document).ready(function() {
-    $('#text').click(function() {
+    $('#form-submitter').click(function() {
         $('#contactForm').attr('action',
                        'mailto:rameensahoo@gmail.com?subject=' +
-                       $('#contactName').val() + '&body=' + $('#contactEmail').val() + $('#contactSubject').val() + $('#contactMessage').val());
+                       $('#submit-button').val() + '&body=');
         $('#contactForm').submit();
     });
 });
