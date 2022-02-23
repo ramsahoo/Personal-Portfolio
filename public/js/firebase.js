@@ -5,14 +5,14 @@ import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
 // TODO: Replace the following with your app's Firebase project configuration
 var firebaseConfig = {
-        apiKey: "API_KEY",
-        authDomain: "PROJECT_ID.firebaseapp.com",
+        apiKey: "AIzaSyAZS8HdNSMDVChrE-mTpN3gjuYVTxTR9Cc",
+        authDomain: "portfolio-7fd34.firebaseapp.com",
         // The value of `databaseURL` depends on the location of the database
-        databaseURL: "https://DATABASE_NAME.firebaseio.com",
-        projectId: "PROJECT_ID",
-        storageBucket: "PROJECT_ID.appspot.com",
-        messagingSenderId: "SENDER_ID",
-        appId: "APP_ID",
+        databaseURL: "https://Portfolio.firebaseio.com",
+        projectId: "portfolio-7fd34",
+        storageBucket: "portfolio-7fd34.appspot.com",
+        messagingSenderId: "277366674470",
+        appId: "1:277366674470:web:a544c15634bf94522cc2e7",
         // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
         measurementId: "G-MEASUREMENT_ID",
       };
