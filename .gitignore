@@ -152,3 +152,7 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 >>>>>>> 5436c12b9632c7fa4ce7383cd93e900f7bec0b05
+
+#private
+
+/private
