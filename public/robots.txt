@@ -1,2 +1,4 @@
 user agent: Googlebot
 Disallow:
+
+sitemap: https://rameensahoo.me/
